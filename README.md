@@ -1,6 +1,8 @@
-EMISSÃO DE FICHA TÉCNICA !
+EMISSÃO DE FICHA TÉCNICA ! 📃
 
-O arquivo Excel funciona como um guia (tutorial) para emitir uma ficha técnica dos produtos da empresa Sinto do Brasil. o fluxo é:
+O arquivo Excel funciona como um guia (tutorial) para emitir uma ficha técnica dos produtos da empresa Sinto do Brasil. 
+
+O fluxo é:
 
 ![image](https://github.com/user-attachments/assets/479a05de-22c2-4627-a2c9-83a899594b0d)
 
@@ -32,5 +34,6 @@ O arquivo Excel funciona como um guia (tutorial) para emitir uma ficha técnica 
 
 ![image](https://github.com/user-attachments/assets/241f3235-0db3-497b-ad05-3a88011f39a1)
 
-A função principal do arquivo Excel é fornecer um tutorial passo a passo para a emissão de fichas técnicas, guiando o 
-usuário através de um processo que envolve preencher um formulário, e será gerado um PDF e salvado com um nome formatado.
+A função principal deste arquivo Excel é simplificar e automatizar a criação de fichas técnicas. Para isso, foi desenvolvido um tutorial 
+passo a passo que orienta o usuário em todo o processo, desde o preenchimento do formulário até a emissão da ficha técnica.
+
