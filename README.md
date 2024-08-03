@@ -1,4 +1,5 @@
 EMISSÃO DE FICHA TÉCNICA !
+
 O arquivo Excel funciona como um guia (tutorial) para emitir uma ficha técnica dos produtos da empresa Sinto do Brasil. o fluxo é:
 
 ![image](https://github.com/user-attachments/assets/479a05de-22c2-4627-a2c9-83a899594b0d)
@@ -11,6 +12,7 @@ O arquivo Excel funciona como um guia (tutorial) para emitir uma ficha técnica 
 ![image](https://github.com/user-attachments/assets/e6ca303b-4db7-40e6-9181-7a5cfb0b04d3)
 
 •	Escolha o idioma desejado.
+
 • Escolha o material para a ficha técnica.
 
 4. Geração da Ficha Técnica:
