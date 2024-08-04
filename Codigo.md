@@ -2333,7 +2333,7 @@ Dim Resposta As String
 End Sub
 
 ```
-•	Por fim, cria-se códigos para rodar quando abre o documento excel
+8. Por fim, cria-se códigos para rodar quando abre o documento excel
 
 ```
 Private Sub Workbook_Open()
