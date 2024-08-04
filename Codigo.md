@@ -49,4 +49,6 @@ Lin = 3
 
 End Sub
 ```
-•	
+•	Códigos que serão executados ao clicar no botão "Gerar ficha técnica"
+
+
