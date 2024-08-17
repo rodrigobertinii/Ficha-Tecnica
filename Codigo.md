@@ -1,28 +1,29 @@
-CRIAÇÃO DA FICHA TÉCNICA DOS PRODUTOS DA SINTO DO BRASIL. 
+# CRIAÇÃO DA FICHA TÉCNICA DOS PRODUTOS DA SINTO DO BRASIL. 
 
-Objetivo: Pela necessidade da empresa solicitou em mudar o layout da ficha técnica, propôs substituir a ferramenta Word pelo Excel 
+## Objetivo: 
+Pela necessidade da empresa solicitou em mudar o layout da ficha técnica, propôs substituir a ferramenta Word pelo Excel 
 para deixar o processo automático e fácil.
 
-1. Foi criado o layout da ficha técnica:
+### 1. Foi criado o layout da ficha técnica:
 
 ![image](https://github.com/user-attachments/assets/5b763c31-31ef-4f04-b587-fc9ca11a9309)
 
-2. Em uma segunda planilha foi criado todo o banco de dados com todos os dados e especeficações dos materiais.
+### 2. Em uma segunda planilha foi criado todo o banco de dados com todos os dados e especeficações dos materiais.
 
-3. Por meio do Visual Basic, foi criado o layout do formulario de "Emissão de ficha Técnica".
+### 3. Por meio do Visual Basic, foi criado o layout do formulario de "Emissão de ficha Técnica".
 
 ![image](https://github.com/user-attachments/assets/399c02e6-ebcd-4644-845f-b88cecd28d9c)
 
-4. Criado o layout do formulário "Cadastrar novos produtos"
+### 4. Criado o layout do formulário "Cadastrar novos produtos"
 
 ![image](https://github.com/user-attachments/assets/aa05d216-21fd-4edf-985b-f8862ddc6bce)
 
-5. Criação dos códigos para o formulario "Emissão de ficha técnica"
+### 5. Criação dos códigos para o formulario "Emissão de ficha técnica"
 
 •	Códigos para ser carregado ao iniciar o formulario. Utilizado para adicionar os dados do idioma e dos 
 materiais da Sinto dentro do ComboBox.
 
-```
+```vba
 
 Private Sub UserForm_Initialize()
 
@@ -52,7 +53,7 @@ End Sub
 ```
 •	Códigos que serão executados ao clicar no botão "Gerar ficha técnica"
 
-```
+```vba
 Private Sub cmdEmissão_Click()
 
     'Criar uma variavel como string
@@ -703,7 +704,7 @@ Private Sub cmdEmissão_Click()
    End Sub
 ```
 
-6. Criado um botão dentro do formulário 'Emissão de ficha técnica' para realizar o cadastro de novos materiais
+### 6. Criado um botão dentro do formulário 'Emissão de ficha técnica' para realizar o cadastro de novos materiais
 
 ![image](https://github.com/user-attachments/assets/66135535-8060-4583-a316-dc4da689cada)
 
@@ -713,7 +714,7 @@ Private Sub cmdEmissão_Click()
 
 •	Códigos que serão executados ao clicar no botão
 
-```
+```vba
 Private Sub CmdCadastro_Click()
 
 'Define a senha como uma string
@@ -735,11 +736,11 @@ Dim senha As String
 'Encerrar o código
 End Sub
 ```
-7. Ao acertar a senha, será exibido o formulario de cadastro de novos materiais. Abaixo os códigos de como funciona tal formulario.
+### 7. Ao acertar a senha, será exibido o formulario de cadastro de novos materiais. Abaixo os códigos de como funciona tal formulario.
 
 •	Códigos que serão executados ao iniciar o formulário
 
-```
+```vba
 Private Sub UserForm_Initialize()
         
     'Adicionar dados para o campo de composição química
@@ -897,7 +898,7 @@ End Sub
 
 •	Códigos que serão executados ao carregar o formulário
 
-```
+```vba
 Private Sub cmbQuantMalhas_Change()
             
     'Se quantidade de malhas for igual a 2 mostrar 2 dados para especificação granulometrica
@@ -1063,7 +1064,7 @@ Private Sub cmbQuantMalhas_Change()
 
 •	Códigos que serão executados ao clicar no botão "Cadastrar"
 
-```
+```vba
 
 Private Sub fmfCadastrar_Click()
 'Cria uma variavel como string
@@ -2333,9 +2334,9 @@ Dim Resposta As String
 End Sub
 
 ```
-8. Por fim, cria-se códigos para rodar quando abre o documento excel
+### 8. Por fim, cria-se códigos para rodar quando abre o documento excel
 
-```
+```vba
 Private Sub Workbook_Open()
 
 'Seleciona a planilha 1 (Modelo)
